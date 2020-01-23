@@ -1,0 +1,51 @@
+/* importing fonts from Google Font API */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,700');
+
+html {
+    background: darkturquoise;
+    min-width: 1280px;
+    min-height: 720px;
+    overflow: auto;
+
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+body {
+    padding: 20px;
+}
+
+h1{
+    font-family: "Major Mono Display", sans-serif;
+    font-size: 3em;
+
+    color: white;
+    letter-spacing: normal;
+    text-transform: lowercase;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: "Major Mono Display", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: normal;
+    text-transform: lowercase;
+}
+
+/* styling elements through their class */
+.svg_boxes {
+    background: beige;
+    display: block;
+    width: 90%;
+    height: 100%;
+    min-width: 800px;
+    min-height: 500px;
+    box-sizing: border-box;
+    margin: auto;
+    /*padding: 20px;*/
+}
