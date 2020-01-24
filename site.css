@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,700');
 
 html {
-    background: darkturquoise;
+    background: #0088cc;
     min-width: 1280px;
     min-height: 720px;
     overflow: auto;
@@ -44,7 +44,7 @@ h2 {
     width: 90%;
     height: 100%;
     min-width: 800px;
-    min-height: 500px;
+    min-height: 700px;
     box-sizing: border-box;
     margin: auto;
     /*padding: 20px;*/
