@@ -1,0 +1,237 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Major Mono Display", sans-serif;
+}
+
+body {
+    background-image: url(assets/Badlands.jpg);
+    margin: 0px;
+}
+
+#home-icon {
+    font-size: 1em;
+}
+
+#home-icon h1 {
+    display: inline-block;
+    color: white;
+    cursor: default;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0F1116;
+    color: #fff !important;
+    padding: 0px 20px 0px 20px;
+    z-index: 100;
+}
+
+.page-header {
+    font-family: "Major Mono Display", sans-serif;
+    letter-spacing: normal;
+    color: #595959;
+    padding-bottom: 5px;
+}
+
+.page-header h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.page-header span {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666666;
+}
+
+#navigation {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: default;
+    padding-right: 50px;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: 1em 1em;
+}
+
+#navigation ul li a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color: #fff;
+}
+
+#page-container {
+    position: relative;
+    background: #FFF;
+    padding: 2em 4em 2em 4em;
+    margin-top: 130px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    min-height: 680px;
+    margin-bottom: 50px;
+}
+
+div.title {
+    position: absolute;
+    top: 48%;
+    left: 39.5%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border: white;
+    border-style: solid;
+    border-width: 3px 0px;
+    text-align: center;
+    width: 525px;
+    height: 100px;
+    color: white;
+    font-style: bold;
+    font-family: "Major Mono Display", sans-serif;
+}
+
+p.title {
+    font-size: 45px;
+    margin: 0px;
+}
+
+p.subtitle {
+    font-size: 30px;
+    font-style: italic;
+    margin: 5px 0px 0px 0px
+}
+
+div.button-left {
+    position: absolute;
+    top: 66%;
+    left: 40%;
+    background-color: #0F1116;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+
+div.button-mid {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    background-color: #0F1116;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+
+div.button-right {
+    position: absolute;
+    top: 66%;
+    left: 60%;
+    background-color: #0F1116;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+
+a.button-text {
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+a.button-text:hover {
+    color: #fff !important;
+}
+
+.near-image {
+    width: 50%;
+    align-self: left
+}
+
+.img-container {
+    text-align: right;
+}
+
+div.image {
+    vertical-align: top;
+    float: right;
+    margin: 10px 20px;
+    text-align: center;
+    width: 22%;
+}
+
+div.image-sm {
+    vertical-align: top;
+    float: right;
+    margin: 10px 20px;
+    text-align: center;
+    width: 15%;
+}
+
+div.image-med {
+    vertical-align: top;
+    float: right;
+    margin: 10px 20px;
+    text-align: center;
+    width: 18%;
+}
+
+img.img-right {
+    width: 100%;
+}
+
+.caption {
+    display: inline-block;
+    font-style: italic;
+}
+
+.bottom-text {
+    padding-bottom: 25px;
+}
+
+.img-context {
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+    align-self: flex-end;
+    margin-top: 3px;
+}
+
+.text h3 {
+    font-family: "Major Mono Display", sans-serif;
+    margin-bottom: 0px;
+}
+
+.text p {
+    margin-top: 3px;
+    font-family: "Major Mono Display", sans-serif;
+}
+
+p ul {
+    font-family: "Major Mono Display", sans-serif;
+}
