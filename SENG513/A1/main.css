@@ -7,9 +7,27 @@ p {
     font-family: "Major Mono Display", sans-serif;
 }
 
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: "Major Mono Display", sans-serif;
+}
+
 body {
     background-image: url(assets/Badlands.jpg);
     margin: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: #9b9b9b;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+td.fossils-found {
+    font-style: italic;
+    font-size: 14px;
 }
 
 #home-icon {
@@ -185,6 +203,14 @@ div.image {
     width: 22%;
 }
 
+div.table {
+    vertical-align: top;
+    float: right;
+    margin: 10px 20px;
+    text-align: center;
+    width: 540px;
+}
+
 div.image-sm {
     vertical-align: top;
     float: right;
@@ -208,6 +234,8 @@ img.img-right {
 .caption {
     display: inline-block;
     font-style: italic;
+    font-family: "Major Mono Display", sans-serif;
+    font-size: 13.5px;
 }
 
 .bottom-text {
@@ -235,4 +263,8 @@ img.img-right {
 
 p ul {
     font-family: "Major Mono Display", sans-serif;
+}
+
+p.paragraph {
+    text-align: justify;
 }
