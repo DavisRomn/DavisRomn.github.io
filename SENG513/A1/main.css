@@ -98,7 +98,7 @@ td.fossils-found {
 
 #page-container {
     position: relative;
-    background: #FFF;
+    background: rgba(255, 255, 255, 0.945);
     padding: 2em 4em 2em 4em;
     margin-top: 130px;
     border-radius: 6px;
