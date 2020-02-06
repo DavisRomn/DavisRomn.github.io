@@ -119,3 +119,87 @@ button:hover {
 .equals {
     color: #00cc00;
 }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #page-container {
+        width: 100%;
+        min-height: 795px;
+    }
+
+    .calculator {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .calculator-display {
+        width: 96%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .calculator_pad {
+        width: 96%;
+    }
+
+    button {
+        height: 120px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #page-container {
+        width: 100%;
+        min-height: 795px;
+    }
+
+    .calculator {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .calculator-display {
+        width: 96%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .calculator_pad {
+        width: 96%;
+    }
+
+    button {
+        height: 120px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #page-container {
+        width: 100%;
+        min-height: 795px;
+    }
+
+    .calculator {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .calculator-display {
+        width: 96%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .calculator_pad {
+        width: 96%;
+    }
+
+    button {
+        height: 120px;
+    }
+}
