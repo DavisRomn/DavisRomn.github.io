@@ -97,7 +97,6 @@ $(document).ready(function(){
             $("#result-statement").text(currentText + " = " + result);
             $("#result").text(result);
         } catch(err) {
-            console.log(err);
             globalResult = "ERROR"
             $("#result-statement").text(currentText + " = " + "ERROR");
         }
