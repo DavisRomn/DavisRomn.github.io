@@ -63,7 +63,7 @@ $(document).ready(function(){
     $(".equals").click(function() {
         let currentText = $("#result").text();
         try {
-            currentText = currentText.replace("x", "*");
+            currentText = currentText.split('x').join('*');
             var result = eval(currentText);
     
             var decimalPlaces = result.toString().split('.');
@@ -79,6 +79,7 @@ $(document).ready(function(){
     
             $("#result").text(result);
         } catch(err) {
+            console.log(err);
             $("#result").text("ERROR");
         }
     });

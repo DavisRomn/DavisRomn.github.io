@@ -124,7 +124,7 @@ button:hover {
 @media only screen and (max-width : 992px) {
     #page-container {
         width: 100%;
-        min-height: 795px;
+        min-height: 845px;
         background: #666666ea;
     }
 
@@ -138,6 +138,8 @@ button:hover {
     .calculator-display {
         width: 96%;
         margin: 10px 0px 0px 10px;
+        font-size: 60px;
+        height: 90px;
     }
 
     .calculator_pad {
@@ -145,7 +147,7 @@ button:hover {
     }
 
     button {
-        height: 120px;
+        height: 130px;
     }
 
     body {
@@ -158,7 +160,7 @@ button:hover {
 @media only screen and (max-width : 768px) {
     #page-container {
         width: 100%;
-        min-height: 795px;
+        min-height: 845px;
         background: #666666ea;
     }
 
@@ -172,6 +174,8 @@ button:hover {
     .calculator-display {
         width: 96%;
         margin: 10px 0px 0px 10px;
+        font-size: 60px;
+        height: 90px;
     }
 
     .calculator_pad {
@@ -179,7 +183,7 @@ button:hover {
     }
 
     button {
-        height: 120px;
+        height: 130px;
     }
 
     body {
@@ -192,7 +196,7 @@ button:hover {
 @media only screen and (max-width : 480px) {
     #page-container {
         width: 100%;
-        min-height: 795px;
+        min-height: 845px;
         background: #666666ea;
     }
 
@@ -206,6 +210,8 @@ button:hover {
     .calculator-display {
         width: 96%;
         margin: 10px 0px 0px 10px;
+        font-size: 60px;
+        height: 90px;
     }
 
     .calculator_pad {
@@ -213,7 +219,7 @@ button:hover {
     }
 
     button {
-        height: 120px;
+        height: 130px;
     }
 
     body {
