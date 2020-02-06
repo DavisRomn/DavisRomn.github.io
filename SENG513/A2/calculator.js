@@ -1,4 +1,7 @@
-$(document).ready(function(){ 
+$(document).ready(function(){
+
+    var globalResult = 0;
+    var justEquated = false;
 
     $(".operator").click( function() {
         let currentText = $("#result").text();
@@ -8,8 +11,13 @@ $(document).ready(function(){
         }
         let operator = $(this)[0].value;
 
-        if (currentText !== "0" && currentText !== "ERROR") {
-            $("#result").text(currentText + operator);
+        if (currentText !== "0" && globalResult !== "ERROR") {
+            if (justEquated) {
+                $("#result").text(globalResult + operator);
+                justEquated = false;
+            } else {
+                $("#result").text(currentText + operator);
+            }
         } else if (operator === '(') {
             $("#result").text(operator);
         }
@@ -47,6 +55,9 @@ $(document).ready(function(){
 
     $(".clear").click(function() {
         $("#result").text('0');
+        $("#result-statement").text("");
+        globalResult = 0;
+        justEquated = false;
     });
 
     $(".decimal").click(function() {
@@ -62,6 +73,7 @@ $(document).ready(function(){
 
     $(".equals").click(function() {
         let currentText = $("#result").text();
+        justEquated = true;
         try {
             currentText = currentText.split('x').join('*');
             var result = eval(currentText);
@@ -74,13 +86,15 @@ $(document).ready(function(){
             }
     
             if (result === Infinity) {
-                result = "ERROR";
+                globalResult = "ERROR";
             }
     
+            globalResult = result;
+            $("#result-statement").text(currentText + " = " + result);
             $("#result").text(result);
         } catch(err) {
-            console.log(err);
-            $("#result").text("ERROR");
+            globalResult = "ERROR"
+            $("#result-statement").text(currentText + " = " + "ERROR");
         }
     });
 });

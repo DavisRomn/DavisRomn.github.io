@@ -6,7 +6,6 @@ a {
 p {
     font-family: "Major Mono Display", sans-serif;
     margin: 0px 5px 0px 0px;
-    padding-top: 10px;
 }
 
 body {
@@ -118,6 +117,14 @@ button:hover {
 
 .equals {
     color: #00cc00;
+}
+
+#result-statement {
+    margin: 0px 5px 0px 0px;;
+    padding: 0px;
+    font-size: 25px;
+    color: #181818;
+    font-style: italic;
 }
 
 /* Medium Devices, Desktops */
