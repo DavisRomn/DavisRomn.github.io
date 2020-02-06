@@ -80,8 +80,8 @@ $(document).ready(function(){
     
             var decimalPlaces = result.toString().split('.');
             if (decimalPlaces.length > 1) {
-                if (decimalPlaces[1].length > 5) {
-                    result = result.toFixed(5);
+                if (decimalPlaces[1].length > 6) {
+                    result = result.toFixed(6);
                 }
             }
     
