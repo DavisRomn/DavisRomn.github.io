@@ -125,6 +125,7 @@ button:hover {
     #page-container {
         width: 100%;
         min-height: 795px;
+        background: #666666ea;
     }
 
     .calculator {
@@ -145,6 +146,11 @@ button:hover {
 
     button {
         height: 120px;
+    }
+
+    body {
+        background-image: url(assets/badlands3.jpg);
+        background-repeat: repeat;
     }
 }
 
@@ -153,6 +159,7 @@ button:hover {
     #page-container {
         width: 100%;
         min-height: 795px;
+        background: #666666ea;
     }
 
     .calculator {
@@ -173,6 +180,11 @@ button:hover {
 
     button {
         height: 120px;
+    }
+
+    body {
+        background-image: url(assets/badlands3.jpg);
+        background-repeat: repeat;
     }
 }
 
@@ -181,6 +193,7 @@ button:hover {
     #page-container {
         width: 100%;
         min-height: 795px;
+        background: #666666ea;
     }
 
     .calculator {
@@ -201,5 +214,10 @@ button:hover {
 
     button {
         height: 120px;
+    }
+
+    body {
+        background-image: url(assets/badlands3.jpg);
+        background-repeat: repeat;
     }
 }
