@@ -65,7 +65,7 @@ $(document).ready(function(){
         if (currentText.length > 20) {
             return;
         }
-        if (!currentText.includes('.')) {
+        if (currentText.charAt(currentText.length - 1) !== '.') {
             // Append the decimal point
             $("#result").text(currentText + '.');
         }
@@ -88,11 +88,16 @@ $(document).ready(function(){
             if (result === Infinity) {
                 globalResult = "ERROR";
             }
-    
+
+            if (result.toString().length >= 14) {
+                result = result.toExponential(7);
+            }
+
             globalResult = result;
             $("#result-statement").text(currentText + " = " + result);
             $("#result").text(result);
         } catch(err) {
+            console.log(err);
             globalResult = "ERROR"
             $("#result-statement").text(currentText + " = " + "ERROR");
         }
